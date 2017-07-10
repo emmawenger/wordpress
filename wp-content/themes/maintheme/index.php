@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<?php error_log('test'); ?>
-
 <?php if ( have_posts() ) : ?>
     <section id="blog">
         <?php while ( have_posts() ) : the_post(); ?>
