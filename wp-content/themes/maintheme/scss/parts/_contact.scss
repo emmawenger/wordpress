@@ -1,0 +1,46 @@
+//░░░░░░░░░░░░░░░░░░░░░░░░
+//
+//     DIRECTORY
+//
+//     _Title
+//
+//░░░░░░░░░░░░░░░░░░░░░░░░
+
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Title
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+#faq{
+    padding:40px 0;
+    
+    .faq{
+        
+        &:not(:last-child){
+            padding-bottom:20px;
+            border-bottom:1px solid gray;
+            margin-bottom:20px;
+        }
+        
+        // &.open{
+        //     p{
+        //         display:block;
+        //     }
+        // }
+    }
+    
+    h6{
+        @include ease;
+        text-transform:uppercase;
+        cursor:pointer;
+        
+        &:hover{
+            color:$Blue;
+        }
+    }
+    
+    p{
+        margin-top:40px;
+        display:none;
+        font-style:italic;
+    }
+}

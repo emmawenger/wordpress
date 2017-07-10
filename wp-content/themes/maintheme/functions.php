@@ -1,6 +1,22 @@
 <?php
+//░░░░░░░░░░░░░░░░░░░░░░░░
+//
+//	 DIRECTORY
+//
+//	 _Title
+//
+//░░░░░░░░░░░░░░░░░░░░░░░░
+
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+// _Title
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
 add_theme_support('menus');
+
+
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+// _Title
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
 function theme_styles(){
 	wp_enqueue_style('theme-css', get_template_directory_uri()."/assets/css/main.min.css");
@@ -8,10 +24,19 @@ function theme_styles(){
 add_action("wp_enqueue_scripts", "theme_styles");
 
 
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+// _Title
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+
 function theme_js() {
-	wp_enqueue_script('theme-js', get_template_directory_uri()."/assets/js/main.js", array("jquery"), "", true);
+	wp_enqueue_script('theme-js', get_template_directory_uri()."/assets/js/general.min.js", array("jquery"), "", true);
 }
 add_action("wp_enqueue_scripts", "theme_js");
+
+
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+// _Title
+//≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
 function theme_menus() {
 	register_nav_menus(
