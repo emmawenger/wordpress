@@ -20,7 +20,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-if (file_exists( ($config = dirname( __FILE__ ).'/local-config.php')) ) {
+$config = dirname( __FILE__ ).'/local-config.php';
+if ( file_exists( $config ) ) {
 	require_once($config);
 } else {
 	define('DB_NAME', 'Wordpress');
