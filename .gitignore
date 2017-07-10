@@ -2,3 +2,4 @@ local-config.php
 .htaccess
 debug.log
 config.codekit3
+.sass-cache/
