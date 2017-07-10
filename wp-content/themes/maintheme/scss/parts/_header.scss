@@ -1,8 +1,8 @@
 //░░░░░░░░░░░░░░░░░░░░░░░░
 //
-//	 DIRECTORY
+//     DIRECTORY
 //
-//	 _Title
+//     _Title
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -10,16 +10,12 @@
 // _Title
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-.container{
-	max-width:1280px;
-	margin:0 auto;
-	padding:0 40px;
-}
-
-//☲☲☲☲☲☲☲☲☲☲☲╣ BREAKPOINTS ╠☲☲☲☲☲☲☲☲☲☲☲☲//
-
-@media screen and (max-width: 500px) {
-	.container{
-		padding:0 20px;
-	}
+header{
+    ul{
+        list-style-type:none;
+    }
+    
+    li{
+        display:inline-block;
+    }
 }

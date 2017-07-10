@@ -1,19 +1,48 @@
+//░░░░░░░░░░░░░░░░░░░░░░░░
+//
+//	 DIRECTORY
+//
+//	 _Content
+//	 _SocialMedia
+//
+//░░░░░░░░░░░░░░░░░░░░░░░░
+
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Content
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
 #content{
 	padding:80px 0;
 }
 
-#social-media ul{
-	text-align:center;
+
+//☲☲☲☲☲☲☲☲☲☲☲╣ BREAKPOINTS ╠☲☲☲☲☲☲☲☲☲☲☲☲//
+
+@media screen and (max-width: 500px) {
+	#content{
+		text-align:center;
+	}
 }
 
-#social-media li{
-	background-color:teal;
-	display:inline-block;
-	margin-right:10px;
-}
 
-#social-media a{
-	padding:12px 20px;
-	color:white;
-	display:block;
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _SocialMedia
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+#social-media{
+	ul{
+		text-align:center;
+	}
+	
+	li{
+		background-color:teal;
+		display:inline-block;
+		margin-right:10px;
+	}
+	
+	a{
+		padding:12px 20px;
+		color:white;
+		display:block;
+	}
 }
