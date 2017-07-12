@@ -1,3 +1,57 @@
+//░░░░░░░░░░░░░░░░░░░░░░░░
+//
+//	 DIRECTORY
+//
+//	 _Colors
+//	 _Layout
+//	 _Misc
+//░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Colors
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
 #blog{
-	// background-color:red;
+	box-shadow: 0 0 3px #888888;
+}
+
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Layout
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+article {
+	width: 60%;
+}
+#blog {
+	padding: 10px 20px;
+	width: 50%;
+	margin-top:4px;
+	margin-left:10px;
+	
+	h1 {
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+	
+	p {
+		padding-bottom: 20px;
+	}
+}
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Misc
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+#blog {
+a {
+	text-decoration: none;
+	color: $LinkBlue;
+	@include ease2;
+	padding-bottom:20px;
+}
+
+a:hover {
+	color: white;
+}
+}
+article {
+	border-bottom: 1px solid $Grey;;
 }
