@@ -11,46 +11,94 @@
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 // _Color
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-header{
-    .logo {
-        background-color: #0074c0;
+
+.text {
+    h1 {
+        font-size:40px;
+        color:black;
     }
-    background-color: #005da6;
-    box-shadow: 0px 3px 5px #888888;
-    a {
-        color:$White;
-        &:hover{
-            background-color:#033A65;
-        }
+    h2 {
+        font-size:25px;
+        color:#005da6;
     }
 }
+
+#portrait {
+    box-shadow: 0 3px 4px 5px rgba(0, 0, 0, 0.58);
+    border: 5px solid #0074C0;
+}
+.contact {
+    background-color: #F4F4F4;
+    color:#ADADAD;
+    h3 {
+        font-size:20px;
+        color:black;
+        border-bottom:1px solid black;
+    }
+
+    a:hover {
+        color:white;
+    }
+}
+
+
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 // _Fonts
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-header {
-    font-family:"Clear Sans";
+.contact {
+    font-family:"Myriad Pro";
 }
+.text {
+        font-family: "Open Sans";
+}
+.text1{
+    font-family:"Open Sans";
+}
+.text2 {
+    font-family:"Open Sans";
+}
+.text3 {
+    font-family:"Open Sans";
+}
+.text4 {
+    font-family:"Open Sans";
+}
+
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Padding & Margins
+// _Padding & Margins 
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-header {
+.contact {
     text-align:center;
-    
-    .logo {
-        padding-bottom: 20px;
-        padding-top:20px;
-    }
-    a {
-        padding: 15px 30px; 
-        text-transform: uppercase;
-    }
+    margin: 100px 200px;
+    padding:20px;
     ul {
-        list-style-type:none;
-        padding:10px 0 10px 0;
-    
+        padding-top:10px;
     }
     li {
-        display:inline-block;
-        margin-right:10px;
+        display:inline;
+        padding:20px;
+    
+    }
+    
+    h3 {
+        padding-bottom:5px;
+    }
+}
+.pictures {
+    text-align:center;
+    margin: 50px;
+    
+}
+.text {
+    margin: 50px 250px 50px 250px;
+    padding:10px;
+    text-align:center;
+    h1 {
+        margin-bottom:10px;
+        border-bottom: 1px solid #ADADAD;
+        padding: 5px 0 5px 0;
+    }
+    h2 {
+        padding:5px 0 5px 0;
     }
 }

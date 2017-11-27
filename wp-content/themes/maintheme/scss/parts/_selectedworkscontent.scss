@@ -2,36 +2,55 @@
 //
 //     DIRECTORY
 //
-//     _Layout
-//     _Colors
+//     _Color
+//     _Fonts
+//     _Padding & Margins
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░
-
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Layout
+// _Color
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-footer{
+.works {
+    box-shadow: 0 1px 11px black;
+    border-radius:3px;
+    border: 1px solid white;
+    a {
+        background-color: #0074c0;
+        border-radius:3px;
+        border: 1px solid #0074c0;
+        color: #003A65;
+    }
+
+
+    a:hover {
+        color: white;
+        box-shadow: 0 1px 11px black;
+    }
+}
+
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Padding & Margins
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+.works {
+    width: 400px;
+    height: 230px;
     text-align: center;
-    font-size:20px;
-    ul{
-        list-style-type:none;
-    }
-    
-    li{
-        display:inline-block;
-        padding: 10px 20px;
-    }
-}
-//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Colors
-//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
-footer {
-    background-color: #005da6;
-    p {
-        padding:20px;
-        color:white;
+    padding:10px;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    a {
+        padding: 5px 10px;
+        margin: 5px 0 20px;
     }
 }
 
+.container {
+    width: 100%;
+}
+
+.workphoto {
+    padding-bottom: 10px;
+}

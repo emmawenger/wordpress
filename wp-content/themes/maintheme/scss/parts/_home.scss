@@ -2,18 +2,103 @@
 //
 //     DIRECTORY
 //
-//     _Images
+//     _Color
+//     _Fonts
+//     _Padding & Margins
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░
-
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Images
+// _Color
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-.pictures {
-    clear:both;
+.containerhome {
+    background-image: url("http://localhost:8888/Wordpress/wp-content/uploads/2017/11/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .contenthome {
+        #bio {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: white;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+
+            h3:nth-child(3) {
+                border-bottom: 1px solid white;
+            }
+        }
+    }
 }
-#photo1 {
-    width:30%;
-    
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Fonts
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+.containerhome {
+    .contenthome {
+        li {
+            font-size: 45px;
+            font-family: "Code Light";
+        }
+
+        #bio {
+            h1 {
+                font-family: "Clear Sans";
+                font-size: 45px;
+            }
+
+            h3 {
+                font-family: "Clear Sans Thin";
+                font-size: 18px;
+            }
+
+            p {
+                font-family: "Open Sans";
+                font-size:14px;
+            }
+        }
+    }
+}
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Padding & Margins
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+.containerhome {
+    width: 100%;
+    text-align: center;
+
+    .contenthome {
+        ul {
+            list-style-type: none;
+            padding-top: 60px;
+        }
+        text-align:center;
+        li {
+            padding: 0 5px;
+            display: inline-block;
+        }
+        .logohome {
+            padding-top:20px;
+            text-align:center;
+        }
+        #bio {
+            width: 70%;
+            padding: 10px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top:150px;
+            h1 {
+                padding-bottom:10px;
+            }
+            h3 {
+                padding-bottom:5px;
+            }
+            p {
+                text-align: center;
+                padding:5px 0 15px 0;
+            }
+        }
+    }
+}
+
+.space {
+    height: 300px;
 }

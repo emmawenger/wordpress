@@ -1,20 +1,16 @@
 //░░░░░░░░░░░░░░░░░░░░░░░░
 //
-//	 DIRECTORY
+//     DIRECTORY
 //
-//	 _Content
-//	 _SocialMedia
+//     _Padding & Margins
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░
 
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Content
+// _Padding & Margins
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
-//☲☲☲☲☲☲☲☲☲☲☲╣ BREAKPOINTS ╠☲☲☲☲☲☲☲☲☲☲☲☲//
-
-@media screen and (max-width: 500px) {
-	#content{
-		text-align:center;
-	}
+.embed {
+width: 1000px;
+margin-left: auto ;
+margin-right: auto ;
 }

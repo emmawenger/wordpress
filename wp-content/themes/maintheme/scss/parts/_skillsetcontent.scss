@@ -1,57 +1,53 @@
 //░░░░░░░░░░░░░░░░░░░░░░░░
 //
-//	 DIRECTORY
+//     DIRECTORY
 //
-//	 _Colors
-//	 _Layout
-//	 _Misc
+//     _Color
+//     _Fonts
+//     _Padding & Margins
 //
 //░░░░░░░░░░░░░░░░░░░░░░░░
-
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Colors
+// _Color
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-#blog{
-	box-shadow: 0 0 3px #888888;
-}
-
-//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Layout
-//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-article {
-	width: 60%;
-}
-#blog {
-	padding: 10px 20px;
-	width: 50%;
-	margin-top:4px;
-	margin-left:10px;
-	
-	h1 {
-		padding-top: 10px;
-		margin-top: 10px;
-	}
-	
-	p {
-		padding-bottom: 20px;
-	}
+.skillset {
+    h1 {
+        color: white;
+        background-color: #005DA6;
+        box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.58);
+    }
 }
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-// _Misc
+// _Fonts
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-#blog {
-a {
-	text-decoration: none;
-	color: $LinkBlue;
-	@include ease2;
-	padding-bottom:20px;
-}
 
-a:hover {
-	color: white;
+.skillset {
+    h1 {
+        font-size: 30px;
+        font-family: "Code Light";
+    }
+
+    li {
+        font-family: "Open Sans";
+    }
 }
-}
-article {
-	border-bottom: 1px solid $Grey;;
+//▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+// _Padding & Margin
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+.skillset {
+    h1 {
+        text-align: center;
+        margin: 0px 50px;
+        padding: 10px;
+    }
+
+    li {
+        padding: 10px 0 0;
+    }
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    margin: 0 20px;
 }
