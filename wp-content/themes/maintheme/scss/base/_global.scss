@@ -31,8 +31,14 @@
 // _Fonts
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
- @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700');
-$Font:'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+$thinfont : 'Quicksand', sans-serif;
+$font-family:'Open Sans', sans-serif;
+$clear:'Pontano Sans', sans-serif;
+
 
 
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
@@ -43,6 +49,8 @@ $Blue:#30c9e8;
 $LinkBlue:#1C2B4B;
 $Grey:#ebebeb;
 $White:#FFFFFF;
+
+
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 // _Typography
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -82,9 +90,6 @@ a{
 	@include ease;
 }
 
-h1,h2,h3,h4,h5,h6,p,a{
-	font-family:$Font;
-}
 
 
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
@@ -112,19 +117,19 @@ header {
 
 @media only screen and (max-device-width: 320px) {
    /* for phones in portrait mode */
-   background-image: url('http://localhost:8888/Wordpress/wp-content/uploads/2017/11/mobileimage.png');
+   background-image: url('http://emmakwenger.byethost18.com/wp-content/uploads/2017/11/mobileimage.png');
 }
 
 @media only screen and (min-device-width: 321px) {
    /* for phones in landscape mode */
-   background-image: url('http://localhost:8888/Wordpress/wp-content/uploads/2017/11/mobileimage.png');
+   background-image: url('http://emmakwenger.byethost18.com/wp-content/uploads/2017/11/mobileimage.png');
 
 }
 
 @media only screen and (min-device-width: 768px) 
 and (max-device-width: 1024px) and (orientation: portrait) {
    /* for tablets in portrait mode */
-   background-image: url('http://localhost:8888/Wordpress/wp-content/uploads/2017/11/mobileimage.png');
+   background-image: url('http://emmakwenger.byethost18.com/wp-content/uploads/2017/11/mobileimage.png');
 
 }
 
@@ -132,7 +137,7 @@ and (max-device-width: 1024px) and (orientation: portrait) {
 (max-device-width: 1024px) and (orientation: landscape) {
    /* for tablets in landscape mode */
    .containerhome {
-	   background-image: url('http://localhost:8888/Wordpress/wp-content/uploads/2017/11/mobileimage.png');
+	   background-image: url('http://emmakwenger.byethost18.com/wp-content/uploads/2017/11/mobileimage.png');
    }
 }
 

@@ -1,11 +1,3 @@
-@import "support/reset";
-
-@import "parts/global";
-@import "parts/page";
-@import "parts/header";
-@import "parts/footer";
-@import "parts/home";
-@import "parts/aboutme";
-@import "parts/selectedworkscontent";
-@import "parts/skillsetcontent";
-@import "parts/resume";
+@import "base/*";
+@import "support/*";
+@import "parts/*";

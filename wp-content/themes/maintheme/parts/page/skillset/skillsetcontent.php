@@ -1,6 +1,6 @@
 <section id="skillsetcontent">
     <div class="container">
-            <div class="skillset">
+        <div class="skillset">
             <h1>Development</h1>
             <ul>
                 <li>HTML</li>
@@ -34,4 +34,5 @@
             </ul>
         </div>
         <hr>
+    </div>
 </section>

@@ -12,7 +12,7 @@
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 .containerhome {
-    background-image: url("http://localhost:8888/Wordpress/wp-content/uploads/2017/11/background-image.jpg");
+    background-image: url("http://emmakwenger.byethost18.com/wp-content/uploads/2017/11/background-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -28,6 +28,17 @@
         }
     }
 }
+
+//☲☲☲☲☲☲☲☲☲☲☲╣ BREAKPOINTS ╠☲☲☲☲☲☲☲☲☲☲☲☲//
+
+.containerhome {
+    @media only screen and (max-width : 768px) {
+        background-image: none;
+        background-color:rgba(0, 0, 0, 0.1);
+    }
+}
+
+
 //▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 // _Fonts
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -36,22 +47,23 @@
     .contenthome {
         li {
             font-size: 45px;
-            font-family: "Code Light";
+            font-family: $thinfont;
+;
         }
 
         #bio {
             h1 {
-                font-family: "Clear Sans";
+                font-family: $clear;
                 font-size: 45px;
             }
 
             h3 {
-                font-family: "Clear Sans Thin";
+                font-family: $clear;
                 font-size: 18px;
             }
 
             p {
-                font-family: "Open Sans";
+                font-family: $font-family;
                 font-size:14px;
             }
         }

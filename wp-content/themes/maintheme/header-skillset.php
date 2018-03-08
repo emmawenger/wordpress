@@ -10,7 +10,7 @@
 <header>
     <div class="container">
         <div class="logo">
-        <img src="http://localhost:8888/Wordpress/wp-content/uploads/2017/11/logo.png" alt="logo" id="logo">
+        <img src="http://emmakwenger.byethost18.com/wp-content/uploads/2017/11/logo.png" alt="logo" id="logo">
     </div>
         <?php
             $nav_args = array(

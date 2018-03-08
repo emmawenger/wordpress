@@ -1,7 +1,7 @@
 <section id="aboutmecontent">
     <div class="container">
         <div class="pictures">
-            <img src="http://localhost:8888/Wordpress/wp-content/uploads/2017/11/portrait.jpg" alt="PortraitPhoto" width="20%" id="portrait">
+            <img src="http://emmakwenger.byethost18.com/wp-content/uploads/2017/11/portrait.jpg" alt="PortraitPhoto" width="20%" id="portrait">
         <div class="text">
             <h1>Biography</h1>
             <p class="text1">
